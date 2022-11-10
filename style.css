@@ -87,8 +87,8 @@ h2 {
 
 .full_name {
     position: absolute;
-    top: 47%;
-    left: 45%;
+    top: 44%;
+    left: 42%;
     transform: translateY(-50%);
     display: none;
     color: #ff0000;
@@ -96,8 +96,8 @@ h2 {
 
 #my_loves {
     position: absolute;
-    top: 52%;
-    left: 46%;
+    top: 50%;
+    left: 43%;
     transform: translateY(-50%);
     display: none;
     color: #ff0000;
