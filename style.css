@@ -1,0 +1,104 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url("./media/img_backgroud.jpeg");
+}
+@keyframes eat {
+    0% {
+        opacity: 0;
+    }
+    1% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.first_name {
+    top: 125px;
+    left: 225px;
+    animation: eat 4s infinite;
+    animation-delay: 2s;
+    float: left;
+    padding: 0 5px;
+}
+.mid {
+    top: 125px;
+    left: 325px;
+    animation: eat 4s infinite;
+    animation-delay: 2.2s;
+    float: left;
+    padding: 0 5px;
+}
+.name {
+    top: 125px;
+    left: 425px;
+    animation: eat 4s infinite;
+    animation-delay: 2.4s;
+    float: left;
+    padding: 0 5px;
+}
+.my_love {
+    top: 125px;
+    left: 525px;
+    animation: eat 4s infinite;
+    animation-delay: 2.6s;
+    float: left;
+    padding: 0 5px;
+}
+@keyframes canvas {
+    96% {
+        transform: translate(-50%,-50%) scale(.8,.8)
+    }
+    100% {
+        transform: translate(-50%,-50%) scale(1,1)
+    }
+}
+
+canvas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.marquee {
+    position: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 99;
+}
+
+h2 {
+    float: left;
+}
+
+.full_name {
+    position: absolute;
+    top: 47%;
+    left: 45%;
+    transform: translateY(-50%);
+    display: none;
+    color: #ff0000;
+}
+
+#my_loves {
+    position: absolute;
+    top: 52%;
+    left: 46%;
+    transform: translateY(-50%);
+    display: none;
+    color: #ff0000;
+}
