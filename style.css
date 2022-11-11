@@ -55,6 +55,7 @@ html, body {
     animation-delay: 2.6s;
     float: left;
     padding: 0 5px;
+    transform: translate(15px, 27.42857142857143px) !important;
 }
 @keyframes canvas {
     96% {
@@ -84,21 +85,21 @@ img {
 h2 {
     float: left;
 }
-
-.full_name {
+h1 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.content_text {
     position: absolute;
     top: 44%;
     left: 42%;
     transform: translateY(-50%);
-    display: none;
     color: #ff0000;
 }
-
+.full_name {
+    display: none;
+}
 #my_loves {
-    position: absolute;
-    top: 50%;
-    left: 43%;
-    transform: translateY(-50%);
     display: none;
     color: #ff0000;
 }
